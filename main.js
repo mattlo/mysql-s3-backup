@@ -7,7 +7,6 @@ const today = moment.utc();
 
 const prefix = process.env.PREFIX ? process.env.PREFIX + '-' : '';
 const fileName = prefix +
-  '-' +
   today.format('YYYY-MM-DD-HH-mm-ss') +
   '.sql';
 
